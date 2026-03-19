@@ -1,6 +1,6 @@
 # Anspire Web Search for OpenClaw
 
-，通过 Anspire Search API 为代理提供实时网页搜索能力。
+通过 Anspire Search API 为代理提供实时网页搜索能力。
 
 ## 能力概览
 

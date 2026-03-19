@@ -1,10 +1,11 @@
 ---
 name: anspire-web-search
 slug: anspire-web-search # 新增核心必填字段，与name一致即可
-version: 1.0.2 # 新增规范必填版本号
+version: 1.0.3 # add homepage for provenance
 description: Use when the user asks for up-to-date web information, recent news, current events, policy changes, market signals, or other real-time information that requires web search.
 user-invocable: false
-metadata: {"openclaw":{"emoji":"🔎","primaryEnv":"ANSPIRE_API_KEY","requires":{"env":["ANSPIRE_API_KEY"],"bins":["curl"]}}}
+homepage: https://github.com/Gavin-guq/anspire-web-search
+metadata: {"openclaw":{"emoji":"🔎","homepage":"https://github.com/Gavin-guq/anspire-web-search","primaryEnv":"ANSPIRE_API_KEY","requires":{"env":["ANSPIRE_API_KEY"],"bins":["curl"]}}}
 ---
 # Anspire Web Search
 Use the Anspire search API when the request depends on real-time web information.
